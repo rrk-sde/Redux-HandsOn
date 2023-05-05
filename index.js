@@ -35,6 +35,7 @@ function reducer(state={amount:1}, action){
 // Global State
 // console.log(store.getState());
 
+// Please use useSelector in place of this for access the state( Modern Approach)
 store.subscribe(()=>{
     // history.push(store.getState())
     console.log(store.getState());
